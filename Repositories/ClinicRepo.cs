@@ -3,19 +3,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HospitalSystem.Repositories
 {
-    public class ClinicRepo
+    public class ClinicRepo : IClinicRepo
     {
         private readonly ApplicationDbContext _context;
-        public ClinicRepo (ApplicationDbContext context)
+        public ClinicRepo(ApplicationDbContext context)
         {
             _context = context;
         }
 
 
         //Add clinic
-        public void AddClinic( Clinic clinic )
+        public void AddClinic(Clinic clinic)
         {
-            _context.Clinic.Add( clinic );
+            _context.Clinic.Add(clinic);
             _context.SaveChanges();
         }
 

@@ -13,15 +13,20 @@ namespace HospitalSystem.Repositories
         }
 
         //view appoinment by clinic id
-        public Appoinment GetAppointmentsByClinci(int cid)
+        public IEnumerable<Appoinment> GetAppointmentsByClinc(int cid)
         {
-            return _context.Appoinments.FirstOrDefault(a => a.CID == cid);
+            return _context.Appoinments.Where(a => a.CID == cid).ToList();
         }
 
         //view appoinment by patient id 
-        public Appoinment GetAppointmentsByPatient(int pid)
+        public IEnumerable<Appoinment> GetAppointmentsByPatient(int pid)
         {
-            return _context.Appoinments.FirstOrDefault(a => a.PID == pid);
+            return _context.Appoinments.Where(a => a.PID == pid).ToList();
+        }
+        public void BookAppointment(Appoinment appoinment)
+        {
+            _context.Add(appoinment);
+            _context.SaveChanges();
         }
     }
 }

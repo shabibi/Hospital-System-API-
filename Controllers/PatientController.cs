@@ -14,13 +14,13 @@ namespace HospitalSystem.Controllers
         {
             _patientService = patientService;
         }
-
-        [HttpPost]
-        public IActionResult AddPatient(PatientDTO patientDTO)
+        [HttpPost("AddPatient")]
+      
+        public IActionResult AddPatient(string patientName, int Age, Gender gender)
         {
             try
             {
-                if (patientDTO == null)
+                if (patientName == null)
                 {
                     return BadRequest("Patient data is null");
                 }
@@ -30,9 +30,9 @@ namespace HospitalSystem.Controllers
                 }
                 var patient = new Patient
                 {
-                    PName = patientDTO.PName,
-                    age = patientDTO.Age,
-                    gender = patientDTO.Gender
+                    PName = patientName,
+                    age = Age,
+                    gender = gender
                 };
                 _patientService.AddPatient(patient);
                 return CreatedAtAction(nameof(AddPatient), new { id = patient.PID }, patient);

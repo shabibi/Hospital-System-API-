@@ -6,11 +6,11 @@ namespace HospitalSystem.Services
 {
     public class AppointmentService : IAppointmentService
     {
-        private readonly AppointmentRepo _appointmentRepo;
-        private readonly PatientService _patientService;
-        private readonly ClinicService _clinicalService;
+        private readonly IAppointmentRepo _appointmentRepo;
+        private readonly IPatientService _patientService;
+        private readonly IClinicService _clinicalService;
 
-        public AppointmentService(AppointmentRepo appointmentRepo, PatientService patientService, ClinicService clinicService)
+        public AppointmentService(IAppointmentRepo appointmentRepo, IPatientService patientService, IClinicService clinicService)
         {
             _appointmentRepo = appointmentRepo;
             _patientService = patientService;
@@ -18,12 +18,12 @@ namespace HospitalSystem.Services
 
         }
 
-        public Appoinment GetAppointmentsByClinc(int cid)
+       public IEnumerable<Appoinment> GetAppointmentsByClinc(int cid)
         {
             return _appointmentRepo.GetAppointmentsByClinc(cid);
         }
 
-        public Appoinment GetAppointmentsByPatient(int pid)
+        public IEnumerable<Appoinment> GetAppointmentsByPatient(int pid)
         {
             return _appointmentRepo.GetAppointmentsByPatient(pid);
         }
@@ -34,8 +34,8 @@ namespace HospitalSystem.Services
             var patients = _patientService.GetAllPatients();
             var clinics = _clinicalService.GetAllClinic();
             int slotNum = 0;
-            Appoinment appintment = null;
-            Appoinment Patient_appoinment = null;
+            int ReservedSlots = 0;
+
             Clinic clinic = null;
             Patient patient = null;
 
@@ -43,7 +43,6 @@ namespace HospitalSystem.Services
             {
                 if (p.PName == pname)
                 {
-                    Patient_appoinment = GetAppointmentsByPatient(p.PID);
                     patient = p;
                 }//if
             }//foreach patient
@@ -55,25 +54,39 @@ namespace HospitalSystem.Services
             {
                 if (c.specilization == cname)
                 {
-                    appintment = GetAppointmentsByClinc(c.CID);
-
                     //check if patient have appointment at same time
-                    if (appintment != null && Patient_appoinment != null)
-                    {
-                        if (appintment == Patient_appoinment && appintment.date == appDate)
-                            throw new InvalidOperationException("Patient have appointment in this day.");
-                    }
                     clinic = c;
-                    if (clinic.NumberOfSlots > appintment.SlotNumber)
-                        slotNum = appintment.SlotNumber + 1;
-                    else
-                        throw new InvalidOperationException("No available appointment in this day.");
-
                 }
             }//foreach clinic
 
             if (clinic == null)
                 throw new InvalidOperationException("Invalid clinc name.");
+
+            var appointments = GetAppointmentsByClinc(clinic.CID);
+
+            foreach (var appointment in appointments)
+            {
+                if (appointment.date == appDate)
+                {
+                    ReservedSlots++;
+                    if (appointment.PID == patient.PID)
+                    throw new InvalidOperationException("Patient have appointment in this day.");
+                }
+
+            }
+
+            slotNum = appointments.Count() + 1;
+
+            //appointments = GetAppointmentsByPatient(patient.PID);
+            //foreach(var appointment in appointments)
+            //{
+            //    if(appointment.SlotNumber == slotNum && appointment.date == appDate)
+            //        throw new InvalidOperationException("Patient have appointment in this slot.");
+            //}
+
+            slotNum = ReservedSlots + 1;
+            if (slotNum > clinic.NumberOfSlots)
+                throw new InvalidOperationException("NO appointment available on this day.");
 
             //add new appointment.
             var newAppointment = new Appoinment
@@ -83,7 +96,7 @@ namespace HospitalSystem.Services
                 SlotNumber = slotNum,
                 date = appDate
             };
-
+            _appointmentRepo.BookAppointment(newAppointment);
         }
 
     }

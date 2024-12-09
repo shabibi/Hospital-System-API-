@@ -5,7 +5,7 @@ namespace HospitalSystem.Services
     public interface IAppointmentService
     {
         void BookAppointment(string pname, string cname, DateTime appDate);
-        Appoinment GetAppointmentsByClinc(int cid);
-        Appoinment GetAppointmentsByPatient(int pid);
+        IEnumerable<Appoinment> GetAppointmentsByClinc(int cid);
+        IEnumerable<Appoinment> GetAppointmentsByPatient(int pid);
     }
 }

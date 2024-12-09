@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HospitalSystem.Repositories
 {
-    public class PatientRepo
+    public class PatientRepo : IPatientRepo
     {
         private readonly ApplicationDbContext _context;
 
-        public PatientRepo (ApplicationDbContext context)
+        public PatientRepo(ApplicationDbContext context)
         {
             _context = context;
         }

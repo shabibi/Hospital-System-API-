@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace HospitalSystem.Models
 {
@@ -9,15 +10,16 @@ namespace HospitalSystem.Models
        
         public int SlotNumber { get; set; }
 
-        DateTime date { get; set; }
+       public DateTime date { get; set; }
 
         [ForeignKey("Patient")]
         public int PID { get; set; }
-
+        [JsonIgnore]
         public virtual Patient Patient { get; set; }
 
         [ForeignKey ("Clinic")]
         public int CID { get; set; }
+        [JsonIgnore]
         public virtual Clinic Clinic { get; set; }
     }
 }

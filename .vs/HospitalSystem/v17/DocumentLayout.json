@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\models\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:models\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\repositories\\clinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:repositories\\clinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\repositories\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:repositories\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\repositories\\iappointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:repositories\\iappointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\repositories\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:repositories\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\repositories\\iclinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:repositories\\iclinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|c:\\users\\codeline user\\desktop\\hospitalsystem\\migrations\\20241208111607_isunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A436DD-F473-4BF7-A51C-CD23A72D3D2A}|HospitalSystem.csproj|solutionrelative:migrations\\20241208111607_isunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:36:29.481Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\AppointmentRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppointmentRepo.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\AppointmentRepo.cs",
+              "RelativeToolTip": "Repositories\\AppointmentRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:00:54.127Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Clinic.cs",
+              "RelativeDocumentMoniker": "Models\\Clinic.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Clinic.cs",
+              "RelativeToolTip": "Models\\Clinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:29:11.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\IAppointmentService.cs",
+              "RelativeToolTip": "Services\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:51:42.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IClinicRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\IClinicRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\IClinicRepo.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\IClinicRepo.cs",
+              "RelativeToolTip": "Repositories\\IClinicRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:57:05.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IClinicService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\IClinicService.cs",
+              "RelativeDocumentMoniker": "Services\\IClinicService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\IClinicService.cs",
+              "RelativeToolTip": "Services\\IClinicService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:53:51.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:37:27.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClinicController.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\ClinicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClinicController.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\ClinicController.cs",
+              "RelativeToolTip": "Controllers\\ClinicController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:36:50.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:34:54.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241208111607_IsUnique.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Migrations\\20241208111607_IsUnique.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241208111607_IsUnique.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Migrations\\20241208111607_IsUnique.cs",
+              "RelativeToolTip": "Migrations\\20241208111607_IsUnique.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:16:07.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClinicService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\ClinicService.cs",
+              "RelativeDocumentMoniker": "Services\\ClinicService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\ClinicService.cs",
+              "RelativeToolTip": "Services\\ClinicService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:36:02.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:35:40.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\PatientRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientRepo.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\PatientRepo.cs",
+              "RelativeToolTip": "Repositories\\PatientRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:01:36.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAppointmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\IAppointmentRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAppointmentRepo.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\IAppointmentRepo.cs",
+              "RelativeToolTip": "Repositories\\IAppointmentRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:34:16.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClinicRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\ClinicRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ClinicRepo.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Repositories\\ClinicRepo.cs",
+              "RelativeToolTip": "Repositories\\ClinicRepo.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:01:11.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:51:48.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T09:49:41.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Appoinment.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Appoinment.cs",
+              "RelativeDocumentMoniker": "Models\\Appoinment.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Appoinment.cs",
+              "RelativeToolTip": "Models\\Appoinment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:30:18.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:28:54.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\Desktop\\HospitalSystem\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:27:08.012Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

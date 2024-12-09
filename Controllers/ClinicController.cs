@@ -15,13 +15,12 @@ namespace HospitalSystem.Controllers
             _clinicService = clinicService;
         }
 
-
-        [HttpPost]
-        public IActionResult AddClinic(ClinicDTO clinicDTO)
+        [HttpPost("AddClinic")]
+        public IActionResult AddClinic(string specilization,int numberOfSlots)
         {
             try
             {
-                if (clinicDTO == null)
+                if (specilization == null && numberOfSlots == 0)
                 {
                     return BadRequest("Clinic data is null");
                 }
@@ -31,8 +30,8 @@ namespace HospitalSystem.Controllers
                 }
                 var clinic = new Clinic
                 {
-                    specilization = clinicDTO.Specilization,
-                    NumberOfSlots = clinicDTO.NumberOfSlots,
+                    specilization = specilization,
+                    NumberOfSlots = numberOfSlots
                 };
                 _clinicService.AddClinic(clinic);
                 return CreatedAtAction(nameof(AddClinic), new { id = clinic.CID }, clinic);
@@ -46,7 +45,7 @@ namespace HospitalSystem.Controllers
         }
 
         [HttpGet("GetAllClincs")]
-        public IActionResult GetAllPatients()
+        public IActionResult GetAllClinic()
         {
             try
             {
